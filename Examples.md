@@ -7,7 +7,12 @@ There are three required inputs for MFAS: the feature file, the annotation file 
 ### 1. Feature file: example_features.bed
 
 Feature file is required in bed6 format. An eCLIP-seq sample input is as below:
-
+chr1	|14943	|14992	|.  |5  |-
+chr1	|16248	|16300	|.   |7   |-
+chr1	|16427	|16479	|.   |12  |-
+chr1	|17461	|17525	|.   |16  |-
+chr1	|109164	|109224	|.   |11  |-
+chr1	|109617	|109656	|.   |5   |-
 
 The columns are: chromosome, start, end, ID, score, and strand. The fourth column can be filled with any character as a place holder if there's no specific IDs. The fifth column shows the score of the feature, and we call it as 'bed-like' score when it stands for the total read counts in that region and 'bedgraph-like' score when it stands for the read coverage of every position within that region. The sixth column should be the strand information.
 
