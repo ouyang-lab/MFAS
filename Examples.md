@@ -113,13 +113,7 @@ Output files:
 #### (a) example_features_trans.txt
 This file is extactly same as that of the First example above.
 
-#### (b) example_features_trans_meta_100_100_100_100_100_100_100_100_bps.txt
-This is the averaged meta-feature file across all transcripts.
-
-#### (c) example_features_trans_100_100_100_100_100_100_100_100_bps_individual.txt
-This is the individual feature in defined coordinate ranges for all transcripts.
-
-#### (d) example_features_trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.pdf
+#### (b) example_features_trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.pdf
 
 This is the heatmap for top 100 transcripts ranked by the sum of score.
 ![alt text](trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.png)
