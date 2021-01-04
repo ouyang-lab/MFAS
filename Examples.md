@@ -33,7 +33,14 @@ This example is a standard format of bed12 file for transcripts' annotations in 
 ### 3. ID file: example_ID.txt
 
 ID file is required in plain text format with two columns. A Refseq annotation sample input is as below:
-
+|   |   | 
+| --- | --- |
+NM_001350218	|SGIP1
+NM_001350217	|SGIP1
+NM_001308203	|SGIP1
+NM_032291	|SGIP1
+NR_136623	|AGBL4
+NM_032785	|AGBL4
 
 The first column of this ID file should be the same as the 4th column of the annotation file.
 
