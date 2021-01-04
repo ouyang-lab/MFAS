@@ -119,7 +119,7 @@ This is the heatmap for top 100 transcripts ranked by the sum of score.
 ![alt text](trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.png)
 
 
-#### (e) example_features_trans_meta_100_100_100_100_100_100_100_100_bps_line.pdf
+#### (c) example_features_trans_meta_100_100_100_100_100_100_100_100_bps_line.pdf
 
 This is the line chart for all transcripts.
 ![alt text](trans_meta_100_100_100_100_100_100_100_100_bps_line.png)
