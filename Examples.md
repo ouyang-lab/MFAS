@@ -7,6 +7,7 @@ There are three required inputs for MFAS: the feature file, the annotation file 
 ### 1. Feature file: example_features.bed
 
 Feature file is required in bed6 format. An eCLIP-seq sample input is as below:
+|   |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- |
 | chr1	| 14943	| 14992	| .  | 5  | - |
 | chr1	| 16248	| 16300	| .   | 7   | - |
