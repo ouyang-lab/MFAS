@@ -41,32 +41,32 @@ Command:
 This line of command performs the meta-transcript analysis (-w 1) on the normalized length scale (-x norm). It uses 50 bins (-n 50) to normalize 5'UTR, CDS and 3'UTR and align all the transcript together by four reference sites: transcription start site, CDS start site, CDS end site, and polyA site. The iput bed6 file is bedlike file (-f bedlike) and no anti-sense analysis is performed but showing the visualization (-p 1) of top 100 transcripts (-s 100) in heatmap.
 
 Output files:
-(a) example_features_trans.txt
+#### (a) example_features_trans.txt
 
 This is base-level feature for all the transcripts.
 
 
 There are five columns of this output file. They are transcript ID, gene ID, CDS start site and CDS end site on the transcript coordinate, as well as the feature profile in single-nucleotide resolution separated by comma.
 
-(b) example_features_trans_meta_150_bins.txt
+#### (b) example_features_trans_meta_150_bins.txt
 
 This is the averaged meta-feature file with 150 bins in total across all transcripts.
 
 This is a single-column file with 150 rows, which shows the final meta-feature of the dataset.
 
-(c) example_features_trans_meta_150_bins_individual.txt
+#### (c) example_features_trans_meta_150_bins_individual.txt
 
 This is the features in 150 bins for individual transcript.
 
-(d) example_features_trans_150_bins_individual_heatmap.pdf
+#### (d) example_features_trans_150_bins_individual_heatmap.pdf
 
 This is the heatmap for top 100 transcripts ranked by the sum of score.
+![alt text](trans_meta_150_bins_heatmap.png)
 
-
-(e) example_features_trans_150_bins.pdf
+#### (e) example_features_trans_150_bins.pdf
 
 This is the line chart for all transcripts.
-
+![alt text](trans_meta_150_bins_line.png)
 
 ### 2. Sense-strand Meta-transcript analysis on the absolute length scale.
 
@@ -76,22 +76,24 @@ Command:
 This line of command performs the meta-transcript analysis (-w 1) on the absolute length scale (-x abs). It uses 100 bps as the largest distance included: downstream to the TSS, upstrem to the CDS start, downstream to the CDS start, upstrem to the CDS center, downstream to the CDS center, upstream to the CDS end, downstream to the CDS end, and upstream to the polyA site.  Interested regions defined by the distance list are aligned together across all the transcript together. The iput bed6 file is bedlike file (-f bedlike) and no anti-sense analysis is performed but showing the visualization (-p 1) of top 100 transcripts (-s 100) in heatmap.
 
 Output files:
-(a) example_features_trans.txt
+#### (a) example_features_trans.txt
 This file is extactly same as that of the First example above.
 
-(b) example_features_trans_meta_100_100_100_100_100_100_100_100_bps.txt
+#### (b) example_features_trans_meta_100_100_100_100_100_100_100_100_bps.txt
 This is the averaged meta-feature file across all transcripts.
 
-(c) example_features_trans_100_100_100_100_100_100_100_100_bps_individual.txt
+#### (c) example_features_trans_100_100_100_100_100_100_100_100_bps_individual.txt
 This is the individual feature in defined coordinate ranges for all transcripts.
 
-(d) example_features_trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.pdf
+#### (d) example_features_trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.pdf
 
 This is the heatmap for top 100 transcripts ranked by the sum of score.
+![alt text](trans_100_100_100_100_100_100_100_100_bps_individual_heatmap.png)
 
-(e) example_features_trans_meta_100_100_100_100_100_100_100_100_bps_line.pdf
+
+#### (e) example_features_trans_meta_100_100_100_100_100_100_100_100_bps_line.pdf
 
 This is the line chart for all transcripts.
-[!alt text](trans_meta_100_100_100_100_100_100_100_100_bps_line.png)
+![alt text](trans_meta_100_100_100_100_100_100_100_100_bps_line.png)
 
 
