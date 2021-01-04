@@ -62,7 +62,9 @@ Output files:
 #### (a) example_features_trans.txt
 
 This is base-level feature for all the transcripts.
-
+|   |   |    |   |  |
+| --- | --- | --- | --- | --- |
+NM_183004	|EIF5    |533	|1829	|0.0,0.0,0.340909090909,0.446808510638,0.0,......,0.0,0.31914893617
 
 There are five columns of this output file. They are transcript ID, gene ID, CDS start site and CDS end site on the transcript coordinate, as well as the feature profile in single-nucleotide resolution separated by comma.
 
